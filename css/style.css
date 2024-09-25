@@ -1,6 +1,18 @@
-.text{
-    height: 100vh;
-    color: red;
-    font-size: 50px;
-    background-color: black;
+body{
+    margin: 0;
+}
+.container{
+    margin: 0 auto;
+    overflow: hidden;
+    width: 960px;
+    border: 1px solid red;
+}
+.img_item{
+    box-sizing: border-box;
+    float: left;
+    width: 25%;
+    padding: 3px;
+}
+.img_item img{
+    width: 100%;
 }
